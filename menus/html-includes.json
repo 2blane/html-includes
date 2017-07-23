@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle html-includes",
+        "command": "html-includes:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "html-includes",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "html-includes:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
