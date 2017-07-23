@@ -1,7 +1,7 @@
 {
   "name": "html-includes",
   "main": "./lib/html-includes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Include HTML files in other HTML files and generate the resulting files on-save.",
   "keywords": [
     "Include HTML",
