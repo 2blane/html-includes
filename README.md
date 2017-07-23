@@ -1,5 +1,11 @@
 # html-includes package
 
-A short description of your package.
+This package allows you to write partial html documents and combine them together on save. This way, you don't have to write server-side logic or worry about performance with html include statements.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+# usage
+
+Add the html tag
+
+<partial src="exampleIncludeFile.html"/>
+
+to your html document to include an outside file. Then, rename your html document with the extension .anomalous. Now, everytime your .anomalous file is saved, a .html file will be generated where your partials will be included in the resulting html file.
