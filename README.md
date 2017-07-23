@@ -6,6 +6,6 @@ This package allows you to write partial html documents and combine them togethe
 
 Add the html tag
 
-<partial src="exampleIncludeFile.html"/>
+`<partial src="exampleIncludeFile.html"/>`
 
 to your html document to include an outside file. Then, rename your html document with the extension .anomalous. Now, everytime your .anomalous file is saved, a .html file will be generated where your partials will be included in the resulting html file.
