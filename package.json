@@ -13,13 +13,14 @@
     "Watcher",
     "Watch"
   ],
-  "repository": "https://github.com/atom/html-includes",
+  "repository": "https://github.com/2blane/html-includes",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "minimatch": "^3.0.4",
-    "mkdirp": "^0.5.1"
+    "atom-space-pen-views": "^2.0.5",
+    "event-kit": "^1.2.0",
+    "node-uuid": "^1.4.8"
   }
 }
